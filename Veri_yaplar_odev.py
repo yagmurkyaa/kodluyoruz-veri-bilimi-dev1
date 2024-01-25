@@ -51,7 +51,7 @@ mehmet_yasi = 28
 
 25==30
 28==30
-if ali_yasi == ayse_yasi:
+if ali_yasi < ayse_yasi:
     print(True)
 else:
     print(False)
