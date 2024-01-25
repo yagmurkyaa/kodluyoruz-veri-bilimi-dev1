@@ -2,18 +2,15 @@
 # coding: utf-8
 
 Soru 1
-# x = 3 ----> floata çevirelim. Çevirdikten sonra veri tipinide yazdıralım.
+# x = 3 ----> floata çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
 # 
-# y = 4.5 -----> integere çevirelim. Çevirdikten sonra veri tipinide yazdıralım.
+# y = 4.5 -----> integere çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
 # 
-# z = "8" -----> integera çevirelim. Çevirdikten sonra veri tipinide yazdıralım.
+# z = "8" -----> integera çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
 # 
-# a = "12" -----> floata çevirelim. Çevirdikten sonra veri tipinide yazdıralım.
+# a = "12" -----> floata çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
 # 
 # b = "46.8" ------> integera çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
-
-# In[9]:
-
 
 x=3
 x=float(x)
@@ -112,8 +109,6 @@ print(meslek)
 # 
 # "0123456789" ifadesindeki yalnızca çift sayıları ve yalnızca tek sayıları seçilir. ("02468", "13579")
 
-
-
 atolye_ismi = "Hi-Kod Veri Bilimi Atölyesi"
 print(atolye_ismi)
 
@@ -149,5 +144,3 @@ for rakam in sayi_ifadesi:
 
 print("Çift Sayılar:", cift_sayilar)
 print("Tek Sayılar:", tek_sayilar)
-
-
