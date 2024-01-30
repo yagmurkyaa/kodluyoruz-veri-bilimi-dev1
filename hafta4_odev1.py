@@ -1,15 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-Soru 1
-# x = 3 ----> floata çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
-# 
+# x = 3 ----> floata çevirelim. Çevirdikten sonra veri tipini de yazdıralım. 
 # y = 4.5 -----> integere çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
-# 
 # z = "8" -----> integera çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
-# 
 # a = "12" -----> floata çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
-# 
 # b = "46.8" ------> integera çevirelim. Çevirdikten sonra veri tipini de yazdıralım.
 
 x=3
@@ -41,7 +34,6 @@ print(type(b))
 # # 2 
 # İsimlerden oluşan üç değişkene yaş değerleri atanır. Belirlenen üç değişken birbiriyle karşılaştırma operatörleri ile karşılaştırılır. Bu karşılaştırmalara mantıksal operatörler de eklenir.
 
-
 ali_yasi = 25
 ayse_yasi = 30
 mehmet_yasi = 28
@@ -66,7 +58,6 @@ not ((30 < 25 ) or (28> 25))
 # # 3
 # Kullanıcıdan iki değer girmesini istenir. Girilen değerlerin toplama, çıkarma, çarpma, bölme sonuçlarını yazdırılır.
 
-
 sayi1 = int(input("1. Sayıyı giriniz = "))
 sayi2 = int(input("1. Sayıyı giriniz = "))
 
@@ -82,38 +73,29 @@ if sayi2 != 0:  # Bölen sıfır olmamalı
 else:
     print("Bölme işlemi için ikinci sayı sıfır olamaz.")
 
-
 # # 4
 # Kullanıcıdan isim, yaş, şehir ve meslek bilgilerini istenir ve cevaplarını yazdırılır.
 
 isim = input("Adınız:")
 isim
-
 age = input("Yaşiniz: ")
 print(age)
-
 sehir= input ("sehriniz: ")
 print(sehir)
-
 meslek= input("mesleginiz: ")
 print(meslek)
 
-
 # # 5
-# "Hi-Kod Veri Bilimi Atölyesi" ifadesini bir değişkene tanımlanır.
-# 
-# 
+# "Hi-Kod Veri Bilimi Atölyesi" ifadesini bir değişkene tanımlanır. 
 #  1. İfadedeki her bir kelimeyi ("Hi-Kod", "Veri", "Bilimi", "Atölyesi") değişken içinden seçilir. 
 #  2. İfadeyi hepsini büyük harf olacak hale çevrilir. ("HI-KOD VERİ BİLİMİ ATÖLYESİ") 
 #  3. İfadeyi hepsini küçük harf olacak hale çevrilir.("hi-kod veri bilimi atölyesi") 
-# 
 # "0123456789" ifadesindeki yalnızca çift sayıları ve yalnızca tek sayıları seçilir. ("02468", "13579")
 
 atolye_ismi = "Hi-Kod Veri Bilimi Atölyesi"
 print(atolye_ismi)
 
 #1.ifadedeki her bir kelime değişken içinden seçilir.
-
 atolye_ismi = "Hi-Kod Veri Bilimi Atölyesi"
 kelimeler = atolye_ismi.split()
 
@@ -132,7 +114,6 @@ print(kucuk_harf_atolye_ismi)
 # "0123456789" ifadesindeki yalnızca çift sayıları ve yalnızca tek sayıları seçilir. ("02468", "13579")
 
 sayi_ifadesi = "0123456789"
-
 cift_sayilar = ""
 tek_sayilar = ""
 
