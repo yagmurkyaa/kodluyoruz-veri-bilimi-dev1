@@ -22,9 +22,6 @@ print(f"Dairenin alanı: {sonuc}")
 # 
 # Faktöriyel adında fonksiyon oluşturulur. Döngü kullanarak parametre olarak girilen sayının faktöriyeli hesaplanır. Format metodunu kullanılarak ekrana yazdırılır.
 
-# In[2]:
-
-
 def faktoriyel_hesapla(sayi):
     faktoriyel = 1
     for i in range(1, sayi + 1):
