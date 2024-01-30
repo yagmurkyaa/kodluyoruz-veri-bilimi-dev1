@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # **Ödev-1:** Kullanıcıdan maaş bilgisini istenir ve bu bilgiye göre maaşından ne kadar vergi kesileceğini hesaplanır. Kullanıcının geliri;
 # 
@@ -9,9 +7,6 @@
 # 4. Diğer koşullarda %30 kesinti olur.
 # 
 # Bu durumlara göre kullanıcının yeni maaşı yazdırılır.
-
-# In[ ]:
-
 
 maas = float(input("Maaşınızı giriniz: "))
 
@@ -36,9 +31,6 @@ print("Yeni maaşınız: " ,  yeni_maas)
 
 # **Ödev-2:** Kullanıcıdan kullanıcı adı ve şifre oluşturmasını istenir. Şifrenin uzunluğu altı haneye ulaşmışsa hesabınız oluşturuldu mesajı alınır, altı haneden azsa altı haneli şifre oluşturması gerektiğinin mesajı alınır. *(Sadece koşul kullanılması yeterli.)*
 
-# In[ ]:
-
-
 # Kullanıcıdan kullanıcı adı ve şifre bilgilerini al
 kullanici_adi = input("Kullanıcı adınızı giriniz: ")
 sifre = input("Şifrenizi belirleyiniz: ")
@@ -57,8 +49,6 @@ else:
 # 3. Koşulu sağlamıyorsa "Lütfen girdiniz şifre 5 haneden az 10 haneden fazla olmasın!" uyarısı alır.
 # 4. Bunu oluştururken kullanıcı istediğimiz şartlarda şifre oluşturana kadar sormaya devam eder
 
-# In[ ]:
-
 
 while True:
     # Kullanıcıdan kullanıcı adı ve şifre bilgisini al
@@ -72,17 +62,12 @@ while True:
     else:
         print("Lütfen girdiğiniz şifre 5 haneden az, 10 haneden fazla olmasın! Tekrar deneyiniz.")
 
-    
-
 
 # **Ödev-4:** Kullanıcıdan isim ve şifre isteyeceğiz ve şifre girişi için üç hak verilir.
 # 
 # 1. Eğer önceden tanımlı şifre ile kullanıcıdan gelen şifre aynıysa "Giriş yapıldı." yazar.
 # 2. Şifre girişi yanlışsa "Yanlış şifre girildi!" uyarısı verilsin ve üç yanlış denemede program biter.
 # 3. Tercihe göre kalan hak bilgisi verilir.
-
-# In[ ]:
-
 
 # Önceden tanımlı kullanıcı adı ve şifre
 dogru_kullanici_adi = "kullanici"
@@ -105,4 +90,3 @@ while hak_sayisi > 0:
             print(f"Yanlış şifre girildi! Kalan hakkınız: {hak_sayisi}")
         else:
             print("Üç kez yanlış şifre girişi yapıldı. Program sonlandırılıyor.")
-
