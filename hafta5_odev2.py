@@ -69,5 +69,9 @@ for index in range(len(meyveler)):
 
     print("{}. indexte bulunan meyve: {}".format(index,meyveler[index]))
 
+meyveler = ["elma", "armut", "muz", "çilek"]
+
+for index, meyve in enumerate(meyveler):
+    print("{}. indexte bulunan meyve: {}".format(index, meyve))
 
 # 
